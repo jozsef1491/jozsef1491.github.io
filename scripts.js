@@ -136,7 +136,7 @@ $(`.thumb`).click((event) => {
 /*valamiért működik
 $('.thumb').click(function fuggvenynev(){
     let index=getAttribute(thumb.this)
-    currentPhoto=numberIndex
+    currentPhoto=numberIndexebe
 
 })
 
