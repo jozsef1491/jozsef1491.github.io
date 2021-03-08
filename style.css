@@ -1,0 +1,123 @@
+body{
+    background-image: url("./images/asztal.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+
+main{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tema{
+    display: flex;
+    margin-left:auto;
+    margin-right:auto;  
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 2300px;
+    width: 4800px;
+    justify-content:center;
+    padding:0;
+    box-shadow: 30px 30px black;
+   
+}
+#photo{
+    height: 2300px;
+    width: 4080px;
+    margin: 0;
+    padding: 0;
+           
+}
+
+.nyil{
+    display: flex;
+    width: 150px;
+    
+}
+.nyildoboz{
+    display: flex;
+    width: 400px;
+    height: 2300px;
+    background-image: url("./images/szurke.jpg");
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+#jobbranyil{
+    transform: rotate(0.5turn);
+}
+.transparent{
+    padding-left: 40px;
+    height: 650px;
+    width: 4040px;
+    position: relative;
+    bottom: 720px;
+    background-color: rgba(240,240,240,0.3)  
+    }
+
+.photo-title{
+    padding-top: 50px;
+    font-size:100px;
+    opacity: 0.9;
+    color: white;
+    
+}
+.photo-description{
+    
+    padding-right: 40px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.thumbnails{
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 350px;
+    width: 5000px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.thumb{
+    
+    width: 400px;
+    border: solid 40px rgb(214, 206, 206);
+    border-radius: 40px;
+    box-shadow: 30px 30px black;
+    
+}
+.thumb:hover{
+    border-color: rgb(228, 121, 21);
+}
+
+
+.title2{
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: 900;
+    width: 2000px;
+    height: 250px;
+    display: block;
+    position: relative;
+    color: black;
+    font-size: 100px;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding-top: 200px;
+    top: -50px;
+    display: none;
+    
+}
+
+thumb:hover .title2 {
+    display: block;
+  }
+  
